@@ -73,9 +73,9 @@ const Navbar = () => {
                                 Blog
                             </Link>
                             <Link 
-                                to="/AddQuestion" 
+                                to="/Quiz" 
                                 className={`px-3 py-2 rounded-md text-sm font-medium ${
-                                    location.pathname === "/AddQuestion" 
+                                    location.pathname === "/Quiz" 
                                     ? "bg-gray-800 text-white" 
                                     : "text-gray-300 hover:bg-gray-700 hover:text-white"
                                 }`}
@@ -150,10 +150,10 @@ const Navbar = () => {
                                 Blog
                             </Link>
                             <Link 
-                                to="/quiz" 
+                                to="/Quiz" 
                                 onClick={closeMobileMenu}
                                 className={`block px-3 py-2 rounded-md text-base font-medium ${
-                                    location.pathname === "/quiz" 
+                                    location.pathname === "/Quiz" 
                                     ? "bg-gray-800 text-white" 
                                     : "text-gray-300 hover:bg-gray-700 hover:text-white"
                                 }`}
